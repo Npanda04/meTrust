@@ -46,9 +46,11 @@ export const LandingPageComponent = ()=> {
           <img
             alt="Hero"
             className="mx-auto aspect-[4/1] overflow-hidden rounded-xl object-[cover] border"
-            height="320"
-            src="/5.png"
-            width="660"
+           
+            src="/MainLogo.jpg"
+            // width="1240" height="900"
+
+            width= "auto" height="auto" max-width= "100%"    max-height="100%"    object-fit="contain"
           />
         </div>
       </div>
