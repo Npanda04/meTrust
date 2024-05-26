@@ -43,7 +43,7 @@ export const LandingPageComponent = ()=> {
 
 
 
-          <img
+          {/* <img
             alt="Hero"
             className="mx-auto aspect-[4/1] overflow-hidden rounded-xl object-[cover] border"
            
@@ -51,7 +51,21 @@ export const LandingPageComponent = ()=> {
             // width="1240" height="900"
 
             width= "auto" height="auto" max-width= "100%"    max-height="100%"    object-fit="contain"
-          />
+          /> */}
+
+<img
+  alt="Hero"
+  className="mx-auto aspect-[4/1] overflow-hidden rounded-xl object-cover"
+  src="/MainLogo.jpg"
+  style={{
+    width: '100%',
+    height: 'auto',
+    maxWidth: '100%',
+    maxHeight: '100%',
+    objectFit: 'contain'
+  }}
+/>
+
         </div>
       </div>
       <div className="py-12 lg:py-16">
